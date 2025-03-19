@@ -1,16 +1,33 @@
 {
-  "autoPlay": false,
-  "title": {
-    "en": "Vanilla.js Starter Template for beginners",
-    "es": "Plantilla Inicial de Vanilla.js para principiantes"
-  },
-  "description": {
-    "en": "This is a starter template for Vanilla.js projects. It includes a basic folder structure with separation between CSS, JS and HTML files. It also uses Vite to kickstart your project and it can be deployed to Vercel in just one click",
-    "es": "Este es un template inicial para proyectos en Vanilla.js. Incluye una estructura básica de carpetas con separación entre archivos CSS, JS y HTML. También utiliza Vite para iniciar tu proyecto y puede ser desplegado en Vercel con un solo clic."
-  },
-  "repository": "https://github.com/4GeeksAcademy/vanillajs-hello",
-  "preview": "https://repository-images.githubusercontent.com/130237499/fc593900-78de-11ea-8d19-fb66acf4d7fe",
-  "projectType": "template",
-  "difficulty": "beginner",
-  "technologies": ["HTML", "CSS", "Javascript", "DOM", "VITE", "MODULE BUNDLER"]
+    "gitpod": true,
+    "title" : {
+    "us": "Conditional Profile Card Generator",
+    "es": "Generador de un perfil condicional"
+},
+	"slug" : "conditional-profile-card",
+	"status": "published",
+    "difficulty": "beginner",
+    "translations": ["es", "us"],
+    "technologies": ["conditionals", "conditional-rendering"],
+    "preview": "https://github.com/breatheco-de/conditional-profile-card/blob/master/preview.gif?raw=true",
+    "syntax": "javascript",
+	"solution" : "https://github.com/breatheco-de/exercise-conditional-profile-card/tree/solution",
+	"duration" : 4,
+	"template_url": "self",
+	"description" : {
+    "us": "Practice Dynamic Conditions with JavaScript: Build a profile card that updates dynamically based on runtime variables like username, avatar, background, and more. Strengthen your coding skills by mastering condition-based rendering in this hands-on project. Perfect for improving dynamic HTML generation.",
+    "es": "Practica condiciones dinámicas con JavaScript: Crea una tarjeta de perfil que se actualice dinámicamente según variables en tiempo de ejecución como nombre de usuario, avatar, fondo y más. Fortalece tus habilidades de programación dominando el renderizado basado en condiciones en este proyecto práctico. Ideal para mejorar la generación de HTML dinámico."
+},
+	"talents": [
+		{ "badge": "identator", "points": 6 },
+		{ "badge": "tag-master", "points": 3 },
+		{ "badge": "window-lover", "points": 3 },
+		{ "badge": "abc", "points": 5 },
+		{ "badge": "functional-developer", "points": 5 }
+	],
+    "autoPlay": false,
+    "projectType": "project",
+    "telemetry": {
+    "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry?asset_id=181"
+}
 }
